@@ -38,10 +38,10 @@ FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Heyo Dear User.. {first}\n\nI am a file store bot​\n​​Maintained By -​ @AnimeSigma")
+START_MSG = os.environ.get("START_MESSAGE", "Heyo [User](https://wallpapercrafter.com/th800/158340-Kaguya-Sama-Love-is-War-anime-girls-school-uniform-pink-hair-Chika-Fujiwara.jpg)\n\nI am a file store bot​\n​​Maintained By -​ @AnimeSigma")
 try:
-    ADMINS=[6376328008]
-    for x in (os.environ.get("ADMINS", "5205293211").split()):
+    ADMINS=[5449069015]
+    for x in (os.environ.get("ADMINS", "5449069015").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
