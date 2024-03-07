@@ -1,18 +1,15 @@
 # File To Link Modified Version With Multiple Force Subscribers
 
-![image](https://github.com/sahilansari75/File-To-Link/assets/147334889/ac27797d-f7ad-48dd-a81a-adbb54f575d2)
-
 <b>A Telegram Special File Sharing Bot Who Made A Link Of File And You Can Access File Through Link.</b>
 
 ##
 
-Credit - [@CodeXbotz](https://t.me/CodeXBotz). [@Anime_X_Hunters](https://t.me/Anime_X_Hunters).
+Credit - [@CodeXbotz](https://t.me/CodeXBotz). [@Anime_X_Hunters](https://t.me/Anime_X_Hunters). [@AnimeSigma](https://t.me/Animesigma).
 
 
 
 ### Features
-- Multi Force Sub Modified Of CodeXBotz Created By - [@Its_Oreki_Hotarou](https://t.me/Its_Oreki_Hotarou).
-- Fully customisable.
+- Multi Force Sub Modified Of CodeXBotz 
 - Customisable welcome & Forcesub messages.
 - More than one Posts in One Link.
 - Can be deployed on heroku directly.
