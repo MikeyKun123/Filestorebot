@@ -50,7 +50,7 @@ async def start_command(client: Client, message: Message):
                 ids = [int(int(argument[1]) / abs(client.db_channel.id))]
             except:
                 return
-        temp_msg = await message.reply("Wait Dude...")
+        temp_msg = await message.reply("Wait for a while...")
         try:
             messages = await get_messages(client, ids)
         except:
@@ -86,11 +86,11 @@ async def start_command(client: Client, message: Message):
             InlineKeyboardButton("ʜᴇʟᴘ​", callback_data="help")
         ],
         [
-            InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/Anime_X_Hunters"),
-            InlineKeyboardButton("ᴏɴɢᴏɪɴɢ", url="https://t.me/Ongoing_Anime_X_Hunter")
+            InlineKeyboardButton("Channel", url="https://t.me/AnimeSigma"),
+            InlineKeyboardButton("Ongoing", url="https://t.me/Ongoing_AnimeSigma")
         ],
         [
-            InlineKeyboardButton("💥ᴄʟᴏꜱᴇ💥", callback_data="close")
+            InlineKeyboardButton("Close ❌", callback_data="close")
         ]
     ]
 )
@@ -169,7 +169,7 @@ async def send_text(client: Bot, message: Message):
         deleted = 0
         unsuccessful = 0
         
-        pls_wait = await message.reply("<i>Broadcast Proccessing Till Wait Dude... </i>")
+        pls_wait = await message.reply("<i>Broadcast Proccessing Till Wait... </i>")
         for chat_id in query:
             try:
                 await broadcast_msg.copy(chat_id)
