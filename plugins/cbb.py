@@ -15,21 +15,21 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("💥​ᴄʟᴏꜱᴇ​💥", callback_data="close"),
-                        InlineKeyboardButton("⚡ᴀʙᴏᴜᴛ⚡", callback_data="about")
+                        InlineKeyboardButton("Close ❌", callback_data="close"),
+                        InlineKeyboardButton("⚡ About ⚡", callback_data="about")
                     ]
                 ]
             )
         )
     elif data == "about":
         await query.message.edit_text(
-            text = f"<b>Hi there this is a file store bot which is convert any file to link...\nthen you can access this file through a specific link...!\n\nCreator - @Its_Oreki_Hotarou\nMy Channel - @Anime_X_Hunters\nDicsussion Group - @Hunters_Discussion</a>\n\n👨‍💻 Developed by @Its_Oreki_Hotarou</b>",
+            text = f"<b>Hi there this is a file store bot which is convert any file to link...\nthen you can access this file through a specific link...!\n\nBot Owner - @Vedant_vn\nOngoing Channel - @Ongoing_AnimeSigma\nChat Group - @Anime_Sigma</a>\n\n👨‍💻 Maintained by Team @AnimeSigma</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("💥​ᴄʟᴏꜱᴇ​💥", callback_data="close"),
-                        InlineKeyboardButton("🚀ʜᴇʟᴘ🚀", callback_data="help")
+                        InlineKeyboardButton("Close ❌", callback_data="close"),
+                        InlineKeyboardButton("🤖 Help Section 🤖", callback_data="help")
                     ]
                 ]
             )
